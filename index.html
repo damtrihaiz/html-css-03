@@ -90,15 +90,15 @@
         <!-- Reset CSS -->
         <link rel="stylesheet" href="./assets/css/reset.css" />
         <!-- Styles -->
-        <link rel="stylesheet" href="./assets/css/style.css" />
+        <link rel="stylesheet" href="./assets/css/styles.css" />
         <title>shine smile</title>
     </head>
     <body>
         <!-- Header -->
-        <header class="header fixed">
+        <header class="header">
             <div class="container">
                 <!-- Header top -->
-                <div class="header__top">
+                <div class="header__body">
                     <!-- logo -->
                     <a href="/">
                         <div class="logo">
@@ -118,17 +118,30 @@
                                 <a
                                     href="#!"
                                     class="navbar__link navbar__link--active"
+                                    title="Home"
                                     >Home</a
                                 >
                             </li>
                             <li class="navbar__item">
-                                <a href="#!" class="navbar__link">Services</a>
+                                <a
+                                    href="#!"
+                                    class="navbar__link"
+                                    title="Services"
+                                    >Services</a
+                                >
                             </li>
                             <li class="navbar__item">
-                                <a href="#!" class="navbar__link">About</a>
+                                <a href="#!" class="navbar__link" title="About"
+                                    >About</a
+                                >
                             </li>
                             <li class="navbar__item">
-                                <a href="#!" class="navbar__link">Doctors</a>
+                                <a
+                                    href="#!"
+                                    class="navbar__link"
+                                    title="Doctors"
+                                    >Doctors</a
+                                >
                             </li>
                         </ul>
                     </nav>
@@ -140,8 +153,13 @@
                         </button>
                     </div>
                 </div>
-                <!-- Hero -->
-                <section class="hero">
+            </div>
+        </header>
+        <!-- Main -->
+        <main style="height: 5000px">
+            <!-- Hero -->
+            <section class="hero">
+                <div class="hero__container container">
                     <!-- Hero content -->
                     <section class="hero__content">
                         <h1 class="hero__heading">
@@ -172,13 +190,10 @@
                             />
                         </div>
                     </div>
-                </section>
-            </div>
-        </header>
-        <!-- Main -->
-        <main styles="height: 10000px">
+                </div>
+            </section>
             <!-- Services -->
-            <section class="service">
+            <!-- <section class="service">
                 <div class="container">
                     <h2 class="headinglv2">Our services</h2>
                     <p class="service__desc desc">
@@ -186,7 +201,7 @@
                         begins with a great dentist.
                     </p>
                 </div>
-            </section>
+            </section> -->
         </main>
     </body>
 </html>
