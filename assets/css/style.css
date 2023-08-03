@@ -516,3 +516,45 @@ a {
 .btn-next {
     transform: rotate(180deg);
 }
+
+/* ==============install=========== */
+
+.install {
+    margin-top: 180px;
+}
+
+.install__inner {
+    border-radius: 4px;
+    background: var(--second-color);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 160px;
+    padding: 0 70px;
+}
+
+.install__img {
+    display: block;
+    margin-top: -95px;
+    width: 284px;
+    height: 522px;
+    object-fit: cover;
+}
+
+.install__heading,
+.install__desc {
+    color: #fff;
+}
+
+.install__desc {
+    margin: 18px 0 38px;
+}
+
+.install__row {
+    display: flex;
+    gap: 28px;
+}
+
+.install_link-app:hover {
+    opacity: 0.8;
+}
