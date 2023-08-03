@@ -435,3 +435,84 @@ a {
 .feature__desc {
     margin: 18px 0 38px;
 }
+
+/* ===========Member========== */
+
+.member {
+    padding: 85px 0;
+    text-align: center;
+}
+
+.member__cta-btn {
+    margin-top: 38px;
+}
+
+.member__list {
+    margin-top: 70px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 30px;
+}
+
+.member-item:hover .member-item__thumb {
+    transform: scale(1.2);
+}
+
+.member-item__bg {
+    border-radius: 6px;
+    background: #eaf6ff;
+    height: 318px;
+    padding-top: 28px;
+    overflow: hidden;
+}
+
+.member-item__thumb {
+    transition: 0.25s;
+    display: block;
+    max-width: 100%;
+    object-fit: cover;
+}
+
+.member-item__name {
+    margin-top: 12px;
+    color: var(--first-color);
+    font-size: 1.8rem;
+    font-weight: 500;
+    line-height: 1.75;
+}
+
+.member-item__desc {
+    color: var(--text-color);
+    font-size: 1.4rem;
+    font-weight: 300;
+    line-height: 1.86;
+}
+
+.member__control {
+    display: flex;
+    margin-top: 38px;
+    justify-content: center;
+    gap: 18px;
+}
+.member__control-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    border: 1px solid var(--text-color);
+    color: var(--text-color);
+    background: #fff;
+}
+
+.member__control-btn:hover {
+    cursor: pointer;
+    border: 1px solid var(--second-color);
+    color: #fff;
+    background: var(--second-color);
+}
+
+.btn-next {
+    transform: rotate(180deg);
+}
