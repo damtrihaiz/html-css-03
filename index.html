@@ -91,8 +91,8 @@
         <link rel="stylesheet" href="./assets/css/reset.css" />
         <!-- Animation -->
         <link
+            href="https://unpkg.com/aos@2.3.1/dist/aos.css"
             rel="stylesheet"
-            href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
         />
         <!-- Styles -->
         <link rel="stylesheet" href="./assets/css/style.css" />
@@ -167,7 +167,7 @@
                 <div class="hero__container container">
                     <!-- Hero content -->
                     <section class="hero__content">
-                        <h1 class="hero__heading">
+                        <h1 class="hero__heading" data-aos="fade-right">
                             Exceptional dental care for all ages.
                         </h1>
                         <p class="hero__desc">
@@ -186,12 +186,12 @@
                             <img
                                 src="./assets/img/hero-01.jpg"
                                 alt="Exceptional dental care for all ages."
-                                class="hero__img animate__animated animate__fadeInTopLeft"
+                                class="hero__img"
                             />
                             <img
                                 src="./assets/img/hero-02.jpg"
                                 alt="Exceptional dental care for all ages."
-                                class="hero__img animate__animated animate__fadeInTopRight"
+                                class="hero__img"
                             />
                         </div>
                     </div>
@@ -212,12 +212,15 @@
                             <img
                                 src="./assets/img/service.jpg"
                                 alt="Our services"
-                                class="service__img wow animate__slideInLeft"
+                                class="service__img"
                             />
                         </figure>
                         <div class="service__list">
                             <!-- Item 1 -->
-                            <section class="service__item">
+                            <section
+                                class="service__item"
+                                data-aos="zoom-in-left"
+                            >
                                 <div class="service__icon">
                                     <svg
                                         width="22"
@@ -243,7 +246,10 @@
                                 </div>
                             </section>
                             <!-- Item 2 -->
-                            <section class="service__item">
+                            <section
+                                class="service__item"
+                                data-aos="zoom-in-left"
+                            >
                                 <div class="service__icon">
                                     <svg
                                         width="22"
@@ -269,7 +275,10 @@
                                 </div>
                             </section>
                             <!-- Item 3 -->
-                            <section class="service__item">
+                            <section
+                                class="service__item"
+                                data-aos="zoom-in-left"
+                            >
                                 <div class="service__icon">
                                     <svg
                                         width="22"
@@ -394,7 +403,11 @@
                     >
                     <div class="member__list">
                         <!-- Member item 1 -->
-                        <article class="member-item">
+                        <article
+                            class="member-item"
+                            data-aos="fade-up"
+                            data-aos-duration="3000"
+                        >
                             <div class="member-item__bg">
                                 <img
                                     src="./assets/img/member-01.png"
@@ -408,7 +421,11 @@
                             </p>
                         </article>
                         <!-- Member item 2 -->
-                        <article class="member-item">
+                        <article
+                            class="member-item"
+                            data-aos="fade-up"
+                            data-aos-duration="3000"
+                        >
                             <div class="member-item__bg">
                                 <img
                                     src="./assets/img/member-02.png"
@@ -422,7 +439,11 @@
                             </p>
                         </article>
                         <!-- Member item 3 -->
-                        <article class="member-item">
+                        <article
+                            class="member-item"
+                            data-aos="fade-up"
+                            data-aos-duration="3000"
+                        >
                             <div class="member-item__bg">
                                 <img
                                     src="./assets/img/member-03.png"
@@ -436,7 +457,11 @@
                             </p>
                         </article>
                         <!-- Member item 4 -->
-                        <article class="member-item">
+                        <article
+                            class="member-item"
+                            data-aos="fade-up"
+                            data-aos-duration="3000"
+                        >
                             <div class="member-item__bg">
                                 <img
                                     src="./assets/img/member-04.png"
@@ -806,13 +831,9 @@
                 </div>
             </div>
         </footer>
-        <script src="
-        https://cdn.jsdelivr.net/npm/wowjs@1.1.3/dist/wow.min.js
-        "></script>
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
         <script>
-            new WOW({
-                animateClass: "animate__animated",
-            }).init();
+            AOS.init();
         </script>
     </body>
 </html>
